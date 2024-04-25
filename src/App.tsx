@@ -1,4 +1,7 @@
+
 import Hero from "./sections/Hero"
+import Target from "./sections/Target"
+import Content from "./sections/Content"
 
 
 function App() {
@@ -9,6 +12,14 @@ function App() {
 
     <section>
       <Hero/>
+    </section>
+
+    <section>
+      <Target/>
+    </section>
+
+    <section>
+      <Content/>
     </section>
    </div>
   )
