@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="flex gap-2">
               <div className="flex gap-2 items-center">
                 <img src="/assets/icons/calendar.svg" alt="calendar" width={20} />
-                <span className='text-slate-100 font-montserrat text-xs font-bold'>20/05/2024 </span>
+                <span className='text-slate-100 font-montserrat text-xs font-bold'>26/05/2024 </span>
               </div>
               <div className="flex gap-2 items-center">
                 <img src="/assets/icons/clock.svg" alt="clock" width={20} />
