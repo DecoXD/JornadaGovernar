@@ -11,8 +11,8 @@ import {config} from '../constants/index.ts'
 
 const Testimonials = () => {
   return (
-   <section className="bg-black  flex flex-col items-center gap-16 px-10 py-16">
-    <h3 className="text-slate-100 font-poppins font-medium sm:text-3xl text-2xl">OS RESULTADOS FALAM POR SI SÓ</h3>
+   <section className="bg-black  flex flex-col items-center gap-16 px-2 sm:px-10 py-16">
+    <h3 className="text-slate-100 font-poppins font-medium sm:text-3xl text-[1.3rem]">OS RESULTADOS FALAM POR SI SÓ</h3>
     <Carousel 
     opts={{
       align:"start",
@@ -23,7 +23,7 @@ const Testimonials = () => {
     {
       testimonalItems.map((item,idx) =>{
         return (
-          <CarouselItem key={idx} className="md:basis-4/12 basis-8/11">
+          <CarouselItem key={idx} className="md:basis-4/12 basis-10/11">
           <TestimonialsCard {...item} />
           </CarouselItem>
         )

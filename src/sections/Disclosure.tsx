@@ -1,3 +1,4 @@
+import { initializeRegressiveCount } from '@/helpers/Counter.ts'
 import {config} from '../constants/index.ts'
 
 const Disclosure = () => {

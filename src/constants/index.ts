@@ -18,23 +18,23 @@ export const targetLayerItems =[
 
 export const testimonalItems = [
   {
-    title:"Jane",
-    imageSrc:'/assets/images/jane.jpg',
+    title:"Érica",
+    imageSrc:'/assets/images/erica.jpeg',
     content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
   },
   {
-    title:"Jane",
-    imageSrc:'/assets/images/jane.jpg',
+    title:"Rodrigo",
+    imageSrc:'/assets/images/homem.jpeg',
     content:"  Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
   },
   {
     title:"Jane",
-    imageSrc:'/assets/images/jane.jpg',
+    imageSrc:'/assets/images/erica.jpeg',
     content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
   },
   {
     title:"Jane",
-    imageSrc:'/assets/images/jane.jpg',
+    imageSrc:'/assets/images/homem.jpeg',
     content:"Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
   },
 ]
