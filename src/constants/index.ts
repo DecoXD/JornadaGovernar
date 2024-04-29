@@ -1,7 +1,7 @@
 export const targetLayerItems =[
   {
     iconSrc:'/assets/icons/arrow.svg',
-    content:'Quer crescer com sua agência ou eugencia,mas está perdido de como fazer isso?',
+    content:'Se sente estagnado e quer aumentar seus resultados, mas está perdido de como fazer isso?',
     alt:'arrow'
   },
   {
@@ -11,7 +11,7 @@ export const targetLayerItems =[
   },
   {
     iconSrc:'/assets/icons/team.svg',
-    content:'você sabe que precisa contratar, mas nao sabe como fazer isso e montar um time de sucesso?',
+    content:'você sabe o que precisa, mas nao sabe como fazer ou como montar um time de sucesso?',
     alt:'team'
   },
 ]

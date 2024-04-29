@@ -15,24 +15,23 @@ const About = () => {
               </span>
             </span>
           </h3>
-          <div className="max-w-xl flex flex-col gap-4 font-light font-montserrat">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum hic inventore recusandae, sed delectus nostrum debitis rerum suscipit dolorum totam odio. Quidem consectetur eveniet beatae, nulla itaque dicta ipsa? Rerum!
-              </p>
+          <ul className="max-w-xl flex flex-col gap-4 font-medium font-montserrat">
+            <li>
+                CEO da SSRH: Empresa de gestão de pessoas e recursos humanos.
+                </li>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum hic inventore recusandae,suscipit dolorum totam odio. Quidem consectetur eveniet beatae, nulla itaque dicta ipsa? Rerum!
-              </p>
+            <li>
+              Mais de <span className="text-yellow-300">19 anos de experiencia</span>, mudando a história de pessoas e empresas através do seu conhecimento.
+              </li>
+
+            <li>
+              Especialista em Mentoria e em comportamento humano.
+            </li>
               
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum hic inventore recusandae,suscipit dolorum totam odio. Quidem consectetur eveniet beatae, nulla itaque dicta ipsa? Rerum!
-              </p>
-              
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum hic inventore recusandae,
-              </p>
-            
-          </div>
+            <li>
+              idealizadora do evento jornada Governar o Maior evento de <span className="text-yellow-300">Inteligencia emocional</span> da região.
+              </li>                     
+          </ul>
           </div>  
 
         <div className="">

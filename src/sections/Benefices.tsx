@@ -19,12 +19,12 @@ const Benefices = () => {
             <ul className='font-montserrat flex flex-col gap-4 text-sm text-slate-100 '>
               <li className='font-montserrat sm:max-w-72 flex gap-4  font-light'>
                 <img src="/assets/icons/checkmark.svg" alt="checkmark"  width={15}/>
-                <span>Ao gerir emoções, os colaboradores superam obstáculos, adaptam-se e decidem com clareza, rumo ao sucesso merecido.</span>
+                <span>Compreenda suas próprias emoções e será capaz de tomar decisões consistentes.</span>
               </li>
 
               <li className='font-montserrat sm:max-w-72 flex gap-4  font-light '>
                 <img src="/assets/icons/checkmark.svg" alt="checkmark"  width={15}/>
-                <span>Com ferramentas de resiliência, transforma desafios em saúde no trabalho, cultivando o bem-estar emocional.</span>
+                <span>utilize ferramentas de resiliência e transforme desafios em saúde no trabalho, cultivando o bem-estar emocional.</span>
               </li>
 
               <li className='font-montserrat sm:max-w-72 flex gap-4  font-light'>

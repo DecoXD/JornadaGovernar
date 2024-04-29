@@ -10,8 +10,8 @@ const Testimonials = () => {
           <h3 className="md:text-4xl text-3xl uppercase font-medium max-w-xl font-poppins  ">
             serão 12 horas de imersão para você <br /> <span className="text-yellow-400">desbloquear</span> todo o seu potencial 
           </h3>
-          <p className="max-w-96 font-montserrat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ratione quas officiis aliquam voluptas recusandae totam necessitatibus beatae neque fugit.</p>
-          <p className="mt-2 max-w-96 font-montserrat">, quaerat repudiandae hic velit architecto provident odit quia perferendis excepturi.</p>
+          <p className="max-w-96 font-montserrat">somos nós os responsáveis pela vida que levamos e onde nos colocamos e que apenas nós mesmos podemos mudar isso,</p>
+          <p className="mt-2 max-w-96 font-montserrat">entendendo quem somos e o poder que está em nossas mãos para mudar quando encontramos o propósito de vida.</p>
         </div>
 
         <div className="flex-1">
