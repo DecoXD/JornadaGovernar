@@ -1,4 +1,4 @@
-import {Button} from '../components/ui/button'
+
 import {config} from '../constants/index.ts'
 const Hero = () => {
   return (
