@@ -1,7 +1,8 @@
-import { initializeRegressiveCount } from '@/helpers/Counter.ts'
+
 import {config} from '../constants/index.ts'
 
 const Disclosure = () => {
+  
   return (
     <section className="min-h-[60vh] flex items-center justify-center bg-yellow-300 p-2">
       <article className="flex flex-col gap-6">
