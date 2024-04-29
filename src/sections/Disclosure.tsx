@@ -1,4 +1,6 @@
 
+
+import Countdown from '@/components/shared/Countdown.tsx'
 import {config} from '../constants/index.ts'
 
 const Disclosure = () => {
@@ -16,22 +18,7 @@ const Disclosure = () => {
         </a>
         <p className="text-center font-medium text-sm font-montserrat">sua mudança para melhor começa em:</p>
         <div className="flex gap-6 justify-center font-montserrat ">
-          <p className="flex flex-col">
-            <span className="text-4xl font-bold">25</span>
-            <span className="text-sm text-center font-light ">dia</span>
-            </p>
-          <p className="flex flex-col">
-            <span className="text-4xl font-bold">13</span>
-            <span className="text-sm text-center font-light ">hor</span>
-          </p>
-          <p className="flex flex-col">
-            <span className="text-4xl font-bold">02</span>
-            <span className="text-sm text-center font-light ">min</span>
-          </p>
-          <p className="flex flex-col">
-          <span className="text-4xl font-bold">58</span>
-          <span className="text-sm text-center font-light ">seg</span>
-          </p>
+          <Countdown key={1}/>
         </div>
       </article>
     </section>
