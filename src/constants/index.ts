@@ -15,3 +15,49 @@ export const targetLayerItems =[
     alt:'team'
   },
 ]
+
+export const testimonalItems = [
+  {
+    title:"Jane",
+    imageSrc:'/assets/images/jane.jpg',
+    content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
+  },
+  {
+    title:"Jane",
+    imageSrc:'/assets/images/jane.jpg',
+    content:"  Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
+  },
+  {
+    title:"Jane",
+    imageSrc:'/assets/images/jane.jpg',
+    content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
+  },
+  {
+    title:"Jane",
+    imageSrc:'/assets/images/jane.jpg',
+    content:"Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas."
+  },
+]
+
+export const paymentCardItem = [
+  {
+    title:"Faça sua inscrição no Evento",
+    content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
+    initialValue: "594.00",
+    promoValue:'29.70',
+    parcels: 10,
+    date:'20/05/2024'
+
+  }
+]
+
+export const config = {
+ ingressLink:"https://www.bilheteriadigital.com/jornada-governar-4-0-treinamento-imersao-em-inteligencia-emocional-26-de-maio"
+}
+
+// title:string;
+// content:string;
+// initialValue:string;
+// promoValue:string;
+// parcels:number;
+// date:string

@@ -4,40 +4,22 @@ type TestimonialCardProps = {
   title:string
 }
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import { Card, CardContent } from "@/components/ui/card"
+
+
 /* eslint-disable */
 const TestimonialsCard = ({imageSrc,content,title}:TestimonialCardProps) => {
   return (
-    <Carousel
-    opts={{
-      align: "start",
-    }}
-    orientation="vertical"
-    className="w-full max-w-xs"
-  >
-    <CarouselContent className="-mt-1 h-[200px]">
-      {Array.from({ length: 5 }).map((_, index) => (
-        <CarouselItem key={index} className="pt-1 md:basis-1/2">
-          <div className="p-1">
-            <Card>
-              <CardContent className="flex items-center justify-center p-6">
-                <span className="text-3xl font-semibold">{index + 1}</span>
-              </CardContent>
-            </Card>
-          </div>
-        </CarouselItem>
-      ))}
-    </CarouselContent>
-    <CarouselPrevious />
-    <CarouselNext />
-  </Carousel>
+    <article className="text-slate-100 font-montserrat max-w-[320px] flex flex-col items-center  ">
+      <img src={imageSrc} alt={title} width={80} className="rounded-full translate-y-4 " />
+      <div className="   flex flex-col rounded-lg p-4 gap-2 bg-[#1A1A1A] min-h-56 items-center justify-center ">
+        <h4 className="font-medium text-lg">{title}</h4>
+        <p className="text-xs font-medium text-center">{content}</p>
+        <div className="flex gap-2 mt-3">
+          <img src="/assets/icons/playbutton.svg" alt="play button" width={15}/>
+          <p className="font-light text-xs text-yellow-600 ">assista o depoimento</p>
+        </div>  
+      </div>
+    </article>
   )
 }
 
