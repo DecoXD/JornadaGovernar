@@ -2,7 +2,7 @@
 import {config} from '../constants/index.ts'
 const Hero = () => {
   return (
-    <section className='flex flex-col sm:p-10 p-10 lg:gap-0 gap-12 bg-[#FFFEFA] min-h-screen  items-start relative '>
+    <section className='flex flex-col sm:p-10 py-10 px-8 lg:gap-0 gap-12 bg-[#FFFEFA] min-h-screen  items-start relative '>
       
       <img src="/assets/images/logo.png" alt="logomarca" width={150}/>{/* ajustar para 100 em mobile */}
     

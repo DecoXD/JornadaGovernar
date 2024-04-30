@@ -7,7 +7,7 @@ const Benefices = () => {
 
       <img src="/assets/images/hand.jpeg" alt="hand" className='md:block hidden'/>
 
-        <div className="  flex flex-col gap-10 p-10">
+        <div className="  flex flex-col gap-10 p-2 md:p-10">
 
           <h3 className='flex font-poppins flex-col md:text-4xl text-3xl font-semibold uppercase text-black '>
             <span>participe dessa </span>
