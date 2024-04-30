@@ -51,8 +51,8 @@ export const Countdown: React.FC = () => {
     }
 
     timerComponents.push(
-      <p key={key} className=' items-center justify-center
-      text-slate-100 font-bold flex flex-col text-xl  shadow-lg p-2 shadow-black/30 '>
+      <p key={key} className=' items-center justify-center bg-[#f2eee9]
+      text-[#6c3e04] font-bold flex flex-col text-xl  shadow-lg p-2 shadow-black/30 '>
 
         <span>{timeLeft[key]< 10 ? '0'+timeLeft[key] : timeLeft[key]}</span>
         <span>{key}{' '}</span> 

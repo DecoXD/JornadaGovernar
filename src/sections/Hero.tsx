@@ -6,7 +6,7 @@ const Hero = () => {
       
       <img src="/assets/images/logo.png" alt="logomarca" width={150}/>{/* ajustar para 100 em mobile */}
     
-      <div className="bg-yellow-300 min-h-24 min-w-16 blur-3xl absolute top-0 left-0"></div>
+      <div className="bg-[#6c3e04] min-h-24 min-w-16 blur-3xl absolute top-0 left-0"></div>
 
       <section className='flex flex-col md:flex-row flex-1 items-center '>
           

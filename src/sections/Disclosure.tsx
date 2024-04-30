@@ -17,7 +17,7 @@ const Disclosure = () => {
           participe desta jornada
         </a>
         <p className="text-center font-medium text-sm font-montserrat text-slate-100">sua mudança para melhor começa em:</p>
-        <div className="flex gap-6 justify-center font-montserrat ">
+        <div className="flex gap-6 justify-center font-montserrat  ">
           <Countdown key={1}/>
         </div>
       </article>

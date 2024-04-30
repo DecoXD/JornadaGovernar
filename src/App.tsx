@@ -7,6 +7,7 @@ import Benefices from "./sections/Benefices"
 import Disclosure from "./sections/Disclosure"
 import About from "./sections/About"
 import Payment from "./sections/Payment"
+import Footer from "./sections/Footer"
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
       <Payment/>
     </section>
     
+    <Footer/>
    </div>
   )
 }
