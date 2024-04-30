@@ -14,8 +14,8 @@ const Testimonials = () => {
           <p className="mt-2 max-w-96 font-montserrat">entendendo quem somos e o poder que está em nossas mãos para mudar quando encontramos o propósito de vida.</p>
         </div>
 
-        <div className="flex-1  ">
-          <img src="/assets/images/cadeado.png" className=" 0 rounded-sm " alt="cadeado" width={600} />
+        <div className="flex-1 flex justify-center md:justify-end">
+          <img src="/assets/images/cadeado.png" className=" 0 rounded-sm  " alt="cadeado" width={350} />
         </div>
       </div>
     </section>
