@@ -32,15 +32,15 @@ function App() {
       <Testimonials/>
     </section>
 
-    <section>
+    <section className="pt-24">
       <Benefices/>
     </section>
     
-    <section className="bg-[#FFFEFA] py-20 ">
+    <section className="bg-[#FFFEFA] pt-24 ">
       <Disclosure/>
     </section>
 
-    <section className="bg-[#FFFEFA] py-20 ">
+    <section className="bg-[#FFFEFA] pt-24 ">
       <About/>
     </section>
     

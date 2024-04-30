@@ -2,12 +2,12 @@
 
 const Benefices = () => {
   return (
-    <section className='bg-[#FFFEFA]'>
-     <article className='flex justify-center'>
+    <section className='bg-[#FFFEFA] flex justify-center'>
+     <article className='flex p-4 justify-between max-w-6xl w-full'>
 
       <img src="/assets/images/hand.jpeg" alt="hand" className='md:block hidden'/>
 
-        <div className=" flex flex-col gap-10 p-10">
+        <div className="  flex flex-col gap-10 p-10">
 
           <h3 className='flex font-poppins flex-col md:text-4xl text-3xl font-semibold uppercase text-black '>
             <span>participe dessa </span>
