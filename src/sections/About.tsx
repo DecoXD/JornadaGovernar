@@ -3,7 +3,7 @@
 const About = () => {
   return (
     <section className="flex justify-center  p-2 md:p-8  m-auto">
-      <div className="flex gap-8 lg:flex-row flex-col-reverse">
+      <div className="flex gap-8 lg:flex-row flex-col">
         <div className="text-black  flex flex-col gap-8   justify-center p-4">
           <h3 className="text-5xl flex flex-col font-medium font-poppins">
             <span>
