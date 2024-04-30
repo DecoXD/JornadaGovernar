@@ -5,11 +5,11 @@ import { targetLayerItems } from "@/constants"
 
 const Target = ({}) => {
   return (
-    <section className="min-h-[80vh] p-4 bg-black flex items-center justify-center w-full ">
+    <section className="min-h-[80vh] p-4 bg-[#FFFEFA] flex items-center justify-center w-full  ">
    
-      <div className=" bg-[#201f1b] max-w-6xl w-full p-2 py-16 gap-12 rounded-xl flex justify-around md:flex-row flex-col md:items-start items-center relative">
+      <div className=" bg-[#f2eee9] max-w-6xl w-full p-2 py-16 gap-12 rounded-xl flex justify-around md:flex-row flex-col md:items-start items-center relative shadow-lg shadow-black/40">
 
-        <div className="absolute h-8 w-8 flex justify-center items-end p-1 bg-black top-[-20px] rounded-full ">
+        <div className="absolute h-8 w-8 flex justify-center items-end p-1 bg-[#FFFEFA] top-[-20px] rounded-full ">
           <img 
             src="/assets/icons/arrow-down.svg" 
             alt="arrow-down" 
@@ -18,8 +18,8 @@ const Target = ({}) => {
         </div>
 
         <div className="min-w-26">
-          <p className="text-yellow-400 font-medium text-3xl font-poppins">serve para você?</p>
-          <h2 className="text-slate-100 font-medium text-4xl font-poppins">para quem é?</h2>
+          <p className="text-[#6c3e04] font-medium text-3xl font-poppins">serve para você?</p>
+          <h2 className="text-black font-medium text-4xl font-poppins">para quem é?</h2>
         </div>
         
         <div className="flex">

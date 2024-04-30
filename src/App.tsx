@@ -35,15 +35,15 @@ function App() {
       <Benefices/>
     </section>
     
-    <section className="bg-black py-20 ">
+    <section className="bg-[#FFFEFA] py-20 ">
       <Disclosure/>
     </section>
 
-    <section className="bg-black py-20 ">
+    <section className="bg-[#FFFEFA] py-20 ">
       <About/>
     </section>
     
-    <section className="bg-black py-20 ">
+    <section className="bg-[#FFFEFA] py-20 ">
       <Payment/>
     </section>
     

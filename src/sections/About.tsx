@@ -4,14 +4,14 @@ const About = () => {
   return (
     <section className="flex justify-center p-8  m-auto">
       <div className="flex gap-8">
-        <div className="text-slate-100  flex flex-col gap-8  justify-center p-4">
+        <div className="text-black  flex flex-col gap-8  justify-center p-4">
           <h3 className="text-5xl flex flex-col font-medium font-poppins">
             <span>
               Conheça sua
               </span>
             <span>
               mentora
-              <span className="text-yellow-300"> Sheila Damião
+              <span className="text-[#6c3e04]"> Sheila Damião
               </span>
             </span>
           </h3>
@@ -21,7 +21,7 @@ const About = () => {
                 </li>
 
             <li>
-              Mais de <span className="text-yellow-300">19 anos de experiencia</span>, mudando a história de pessoas e empresas através do seu conhecimento.
+              Mais de <span className="text-[#6c3e04]">19 anos de experiencia</span>, mudando a história de pessoas e empresas através do seu conhecimento.
               </li>
 
             <li>
@@ -29,7 +29,7 @@ const About = () => {
             </li>
               
             <li>
-              idealizadora do evento jornada Governar o Maior evento de <span className="text-yellow-300">Inteligencia emocional</span> da região.
+              idealizadora do evento jornada Governar o Maior evento de <span className="text-[#6c3e04]">Inteligencia emocional</span> da região.
               </li>                     
           </ul>
           </div>  

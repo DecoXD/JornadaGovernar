@@ -11,8 +11,8 @@ import {config} from '../constants/index.ts'
 
 const Testimonials = () => {
   return (
-   <section className="bg-black  flex flex-col items-center gap-16 px-2 sm:px-10 py-16">
-    <h3 className="text-slate-100 font-poppins font-medium sm:text-3xl text-[1.3rem]">OS RESULTADOS FALAM POR SI SÓ</h3>
+   <section className="bg-[#FFFEFA]  flex flex-col items-center gap-16 px-2 sm:px-10 py-16">
+    <h3 className="text-black font-poppins font-medium sm:text-3xl text-[1.3rem]">OS RESULTADOS FALAM POR SI SÓ</h3>
     <Carousel 
     opts={{
       align:"start",
@@ -32,7 +32,7 @@ const Testimonials = () => {
     </CarouselContent>
 
     </Carousel>
-    <a target="_blank" href={config.ingressLink} className="uppercase py-4 px-12 bg-yellow-300 font-montserrat font-medium sm:text-md text-xs whitespace-nowrap">
+    <a target="_blank" href={config.ingressLink} className="uppercase py-4 px-12 bg-[#6c3e04] font-montserrat font-bold sm:text-md text-xs text-slate-100 whitespace-nowrap">
       quero participar da jornada
     </a>
       
