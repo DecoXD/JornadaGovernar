@@ -8,6 +8,7 @@ import Disclosure from "./sections/Disclosure"
 import About from "./sections/About"
 import Payment from "./sections/Payment"
 import Footer from "./sections/Footer"
+import TestimonialVideoModal from "./components/shared/TestimonialVideoModal"
 
 
 function App() {
@@ -32,22 +33,22 @@ function App() {
       <Testimonials/>
     </section>
 
-    <section>
+    <section className="pt-24">
       <Benefices/>
     </section>
     
-    <section className="bg-[#FFFEFA] py-20 ">
+    <section className="bg-[#FFFEFA] pt-24 ">
       <Disclosure/>
     </section>
 
-    <section className="bg-[#FFFEFA] py-20 ">
+    <section className="bg-[#FFFEFA] pt-24 ">
       <About/>
     </section>
     
     <section className="bg-[#FFFEFA] py-20 ">
       <Payment/>
     </section>
-    
+    <TestimonialVideoModal videoSrc={'/assets/videos/video.mp4'}/>
     <Footer/>
    </div>
   )

@@ -2,9 +2,9 @@
 
 const About = () => {
   return (
-    <section className="flex justify-center p-8  m-auto">
-      <div className="flex gap-8">
-        <div className="text-black  flex flex-col gap-8  justify-center p-4">
+    <section className="flex justify-center  p-2 md:p-8  m-auto">
+      <div className="flex gap-8 lg:flex-row flex-col">
+        <div className="text-black  flex flex-col gap-8   justify-center p-4">
           <h3 className="text-5xl flex flex-col font-medium font-poppins">
             <span>
               Conheça sua
@@ -34,8 +34,8 @@ const About = () => {
           </ul>
           </div>  
 
-        <div className="">
-          {/* <img src="/assets/images/sheila.png" alt="sheila damião" width={500} /> */}
+        <div className="overflow-hidden ">
+          <img src="/assets/images/sheila.jpg" alt="sheila damião" className="lg:translate-x-1 translate-x-3 -translate-y-4" width={600} />
         </div>
       </div>
     </section>

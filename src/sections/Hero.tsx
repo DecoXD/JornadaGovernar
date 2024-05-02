@@ -2,11 +2,11 @@
 import {config} from '../constants/index.ts'
 const Hero = () => {
   return (
-    <section className='flex flex-col sm:p-10 p-10 lg:gap-0 gap-12 bg-[#FFFEFA] min-h-screen  items-start relative '>
+    <section className='flex flex-col sm:p-10 py-10 px-8 lg:gap-0 gap-12 bg-[#FFFEFA] min-h-screen  items-start relative '>
       
       <img src="/assets/images/logo.png" alt="logomarca" width={150}/>{/* ajustar para 100 em mobile */}
     
-      <div className="bg-[#6c3e04] min-h-24 min-w-16 blur-3xl absolute top-0 left-0"></div>
+      <div className="bg-[#6c3e04] min-h-20 min-w-14 blur-3xl absolute top-0 left-0"></div>
 
       <section className='flex flex-col md:flex-row flex-1 items-center '>
           
