@@ -16,7 +16,7 @@ const Benefices = () => {
             </h3>
 
             <p className='font-montserrat max-w-80 text-black font-medium  text-md'>vou te mostrar como você deve agir para vencer de uma vez por todas <span className='text-[#6c3e04] font-medium'> as suas limitações</span></p>
-            <ul className='font-montserrat flex flex-col gap-4 text-sm text-black/75 font-medium '>
+            <ul className='font-montserrat flex flex-col gap-4 text-sm text-black/85 font-medium '>
               <li className='font-montserrat sm:max-w-72 flex gap-4  font-medium '>
                 <img src="/assets/icons/checkmark.svg" alt="checkmark"  width={15}/>
                 <span>Compreenda suas próprias emoções e será capaz de tomar decisões consistentes.</span>
