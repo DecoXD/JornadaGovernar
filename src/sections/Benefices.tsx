@@ -5,7 +5,7 @@ const Benefices = () => {
     <section className='bg-[#FFFEFA] flex justify-center'>
      <article className='flex p-4 justify-between max-w-6xl w-full'>
 
-      <img src="/assets/images/hand.jpeg" alt="hand" className='md:block hidden'/>
+      <img src="/assets/images/key.jpg" alt="hand" className='md:block hidden'/>
 
         <div className="  flex flex-col gap-10 p-2 md:p-10">
 
