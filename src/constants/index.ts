@@ -50,7 +50,7 @@ export const paymentCardItem = [
     initialValue: "594.00",
     promoValue:'29.70',
     parcels: 10,
-    date:'20/05/2024'
+    date:'26/05/2024'
 
   }
 ]
