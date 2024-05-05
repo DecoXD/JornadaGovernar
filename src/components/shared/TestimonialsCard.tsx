@@ -11,7 +11,7 @@ type TestimonialCardProps = {
 
 
 /* eslint-disable */
-const TestimonialsCard = ({imageSrc,content,title,videoSrc,handleModal}:TestimonialCardProps) => {
+const TestimonialsCard = ({content,title,videoSrc,handleModal}:TestimonialCardProps) => {
   
   return (
 
