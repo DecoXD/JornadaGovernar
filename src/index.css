@@ -80,11 +80,14 @@
 @layer components{
   .hero-bg{
     
-    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url('/assets/images/hero-bg.jpeg');
+    background: url('/assets/images/bg-hero.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    
+    background-position:top;
   }
+
+ 
 }
 
 @layer utilities{

@@ -16,7 +16,7 @@ const TestimonialsCard = ({imageSrc,content,title,videoSrc,handleModal}:Testimon
   return (
 
     <article className="text-black font-montserrat max-w-[320px] flex flex-col items-center relative z-50">
-      <img src={imageSrc} alt={title} width={80} className="rounded-full translate-y-4 " />
+      {/* <img src={imageSrc} alt={title} width={80} className="rounded-full translate-y-4 " /> */}
       <div className="   flex flex-col rounded-lg p-4 gap-2 bg-[#f2eee9] min-h-56 items-center justify-center ">
         <h4 className="font-medium text-lg">{title}</h4>
         <p className="text-xs font-medium text-center">{content}</p>

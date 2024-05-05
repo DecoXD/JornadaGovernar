@@ -8,6 +8,7 @@ import Disclosure from "./sections/Disclosure"
 import About from "./sections/About"
 import Payment from "./sections/Payment"
 import Footer from "./sections/Footer"
+import WpToast from "./components/shared/WpToast"
 
 
 
@@ -16,7 +17,7 @@ function App() {
 
   return (
    <div className="">
-
+    <WpToast/>
     <section>
       <Hero/>
     </section>

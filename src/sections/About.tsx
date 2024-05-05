@@ -34,8 +34,8 @@ const About = () => {
           </ul>
           </div>  
 
-        <div className="overflow-hidden ">
-          <img src="/assets/images/sheila.jpg" alt="sheila damião" className="lg:translate-x-1 translate-x-3 -translate-y-4" width={600} />
+        <div className="   bg-[#6c3e04]/50 rounded-2xl">
+          <img src="/assets/images/about-image.png" alt="sheila damião" className="rounded-3xl  -translate-x-3 -translate-y-3  " width={600} />
         </div>
       </div>
     </section>
