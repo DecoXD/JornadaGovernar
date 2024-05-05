@@ -3,7 +3,7 @@
 const About = () => {
   return (
     <section className="flex justify-center  p-2 md:p-8  m-auto">
-      <div className="flex gap-8 lg:flex-row flex-col">
+      <div className="flex gap-8 lg:flex-row flex-col p-2 items-center justify-center">
         <div className="text-black  flex flex-col gap-8   justify-center p-4">
           <h3 className="text-5xl flex flex-col font-medium font-poppins">
             <span>
@@ -34,8 +34,8 @@ const About = () => {
           </ul>
           </div>  
 
-        <div className="   bg-[#6c3e04]/50 rounded-2xl">
-          <img src="/assets/images/about-image.png" alt="sheila damião" className="rounded-3xl  -translate-x-3 -translate-y-3  " width={600} />
+        <div className="   bg-[#6c3e04]/50 rounded-2xl flex items-center ">
+          <img src="/assets/images/about-image.png" alt="sheila damião" className="rounded-3xl  sm:-translate-x-3 sm:-translate-y-3 -translate-x-2 -translate-y-2  " width={600} />
         </div>
       </div>
     </section>
