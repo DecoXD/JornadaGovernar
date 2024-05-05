@@ -16,7 +16,7 @@ const Hero = () => {
             <br /> 
             com <span className="text-[#6c3e04] whitespace-nowrap">sheila damião</span> <br />
             especialista em <br />
-            <span className="text-[#6c3e04] sm:whitespace-nowrap">inteligência emocional</span>
+            <span className="text-[#6c3e04]  sm:whitespace-nowrap">inteligência emocional</span>
           </h1>
           <p className='text-black md:text-md sm:text-sm text-xs font-montserrat'>Descubra como superar os bloqueios ocultos que limitam seu potencial. Através do autoconhecimento e da autorresponsabilidade, aprenda a maximizar sua performance e produtividade. Transforme sua vida e negócios,  e alcance uma vida plena e abundante.</p>
           <a target="_blank" href={config.ingressLink} 
