@@ -80,7 +80,7 @@
 @layer components{
   .hero-bg{
     
-    background: url('/assets/images/bg-hero.jpeg');
+    background: url('/assets/images/bg-hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     
