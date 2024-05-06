@@ -2,13 +2,14 @@
 import Hero from "./sections/Hero"
 import Target from "./sections/Target"
 import Content from "./sections/Content"
-import Testimonials from "./sections/Testimonials"
+
 import Benefices from "./sections/Benefices"
 import Disclosure from "./sections/Disclosure"
 import About from "./sections/About"
 import Payment from "./sections/Payment"
 import Footer from "./sections/Footer"
 import WpToast from "./components/shared/WpToast"
+import Audience from "./sections/Audience"
 
 
 
@@ -31,7 +32,7 @@ function App() {
     </section>
 
     <section>
-      <Testimonials/>
+      <Audience/>
     </section>
 
     <section className="pt-24">

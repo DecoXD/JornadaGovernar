@@ -43,6 +43,36 @@ export const testimonalItems = [
   },
 ]
 
+export const whoIsItFor = [
+  {
+    title:'Profissionais',
+    content:'O profissional mais desejado no mercado é aquele que tem dominio das suas emoções.'
+  },
+  {
+    title:'Empresários e Empreendedores',
+    content:'Que desejam aumentar resultados, desenvolver a liderança para ter uma equipe performatica, ter uma equipe  '
+  },
+  {
+    title:'Quem deseja uma mudança de vida',
+    content:'A jornada é para aqueles que entendem que precisam estar aberto as mudanças, para aqueles que querem encontrar a identidade, restaurar propósitos.'
+  }
+]
+export const whoIsntItFor = [
+  {
+    title:'pessoas acomodadas',
+    content:"que acreditam que a vida vai melhoras se continuar fazendo as mesmas coisas que deixaram onde está."
+  },
+  {
+    title: 'quem resiste à mudança',
+    content: 'Para aqueles que não estão prontos para revisar suas crenças e métodos, mesmo quando não estão trazendo os resultados desejados.'
+  },
+  {
+    title: 'quem não está disposto a se desafiar ',
+    content: 'Para os que preferem permanecer na zona de conforto ao invés de enfrentar e superar seus limites para crescer pessoal e profissionalmente.'
+  }
+]
+
+
 export const paymentCardItem = [
   {
     title:"Faça sua inscrição no Evento",
