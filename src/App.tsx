@@ -1,4 +1,4 @@
-
+import { Analytics } from "@vercel/analytics/react"
 import Hero from "./sections/Hero"
 import Target from "./sections/Target"
 import Content from "./sections/Content"
@@ -18,6 +18,9 @@ function App() {
 
   return (
    <div className="">
+
+    <Analytics/>
+    
     <WpToast/>
     <section>
       <Hero/>
