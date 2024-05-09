@@ -50,7 +50,7 @@ export const whoIsItFor = [
   },
   {
     title:'Empresários e Empreendedores',
-    content:'Que desejam aumentar resultados, desenvolver a liderança para ter uma equipe performatica, ter uma equipe  '
+    content:'Que desejam aumentar resultados, desenvolver a liderança para ter uma equipe performatica. '
   },
   {
     title:'Quem deseja uma mudança de vida',
