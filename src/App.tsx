@@ -35,7 +35,7 @@ function App() {
       <Content/>
     </section>
     
-    <section>
+    <section className="pt-24">
       <Audience/>
     </section>
 

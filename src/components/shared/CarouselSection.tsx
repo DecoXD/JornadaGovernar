@@ -18,7 +18,7 @@ const CarouselSection = () => {
   )
 
   return (
-    <Carousel className=" max-w-6xl w-full m-auto mt-20 mb-20  shadow-lg bg-[#6c3e04]/10 rounded-xl  "
+    <Carousel className=" max-w-6xl w-full m-auto    shadow-lg bg-[#6c3e04]/10 rounded-xl  "
     opts={{
       loop:true,
       direction:'ltr',

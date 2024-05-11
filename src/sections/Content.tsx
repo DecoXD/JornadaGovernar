@@ -5,7 +5,7 @@ const Content = () => {
   return (
     <section className="bg-[#FFFEFA]  flex justify-center  p-2">
 
-      <div className=" flex w-full max-w-6xl lg:flex-row flex-col shadow-md items-center justify-center shadow-black/10 px-2 pt-4 md:p-4 sm:shadow-none">
+      <div className=" flex w-full max-w-6xl lg:flex-row flex-col  items-center justify-center gap-4  px-2 pt-4 md:p-4 sm:shadow-none">
 
         <div className="flex  flex-col gap-6  justify-center flex-1 text-black ">
           <h3 className="md:text-4xl text-3xl uppercase font-medium max-w-xl font-poppins  ">
