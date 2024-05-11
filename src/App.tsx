@@ -10,6 +10,7 @@ import Payment from "./sections/Payment"
 import Footer from "./sections/Footer"
 import WpToast from "./components/shared/WpToast"
 import Audience from "./sections/Audience"
+import CarouselSection from "./components/shared/CarouselSection"
 
 
 
@@ -33,7 +34,9 @@ function App() {
     <section>
       <Content/>
     </section>
-
+    <section className="bg-[#FFFEFA] py-2 ">
+      <CarouselSection/>
+    </section>
     <section>
       <Audience/>
     </section>
