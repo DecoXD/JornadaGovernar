@@ -5,7 +5,7 @@ type SponsorsCardProps = {
 
 const SponsorsCard = ({brand,imageSrc}:SponsorsCardProps) => {
   return (
-    <div className=" p-2">
+    <div className=" md:p-2">
       <img src={imageSrc} alt={brand} width={290} className="shadow-md " />
      
     </div>
