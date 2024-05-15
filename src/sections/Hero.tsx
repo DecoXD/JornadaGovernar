@@ -8,7 +8,7 @@ const Hero = () => {
     
       <div className="bg-[#6c3e04] min-h-20 min-w-14 blur-3xl absolute top-0 left-0"></div>
 
-      <section className='flex flex-col md:flex-row flex-1 items-end z-10 px-10'>
+      <section className='flex flex-col md:flex-row flex-1 items-end z-10 md:px-0 md:pl-10 px-10'>
           
         <div className="  flex flex-col gap-8 flex-1  w-full">
           <h1 className='lg:text-[42px] font-poppins sm:text-4xl text-3xl  max-w-[600px] w-full font-bold uppercase text-black'>
@@ -41,8 +41,8 @@ const Hero = () => {
 
 
       
-        <div className="overflow-hidden flex-1 lg:flex hidden -translate-y-4  justify-end  relative  w-full  items-start  min-w-[50%] ">
-          <img src="/assets/images/jornada2.png" alt="sheila damiao" width={1000} className=' object-contain'/>
+        <div className="overflow-hidden flex-1 lg:flex hidden justify-end  relative  w-full  items-start  min-w-[50%] ">
+          <img src="/assets/images/jornada2.png" alt="sheila damiao" width={1000} className=' '/>
          
         </div>
        
