@@ -53,7 +53,7 @@ const Sponsors = () => {
       spaceBetween={50}
       slidesPerView={3}
       pagination={{ clickable: false }}
-      speed={2000}
+      speed={1800}
       autoplay={{
         delay:100,
         reverseDirection:false
