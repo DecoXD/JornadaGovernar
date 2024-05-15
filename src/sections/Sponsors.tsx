@@ -16,8 +16,8 @@ import SponsorsCard from '@/components/shared/SponsorsCard';
 
 const Sponsors = () => {
   return (
-    <section className='flex flex-col gap-10'>
-      <h2 className='text-center md:text-5xl text-3xl py-20 font-bold uppercase font-poppins'>Patrocinadores</h2>
+    <section className='flex flex-col md:gap-10 gap-6'>
+      <h2 className='text-center md:text-5xl text-3xl md:py-20 py-14 font-bold uppercase font-poppins'>Patrocinadores</h2>
      <Swiper
       // install Swiper modules
       modules={[Autoplay]}
