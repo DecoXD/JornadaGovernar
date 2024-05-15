@@ -14,6 +14,7 @@ import Sponsors from "./sections/Sponsors"
 
 
 
+
 function App() {
  
 
@@ -34,8 +35,8 @@ function App() {
     <section>
       <Content/>
     </section>
-
-    <section>
+    
+    <section className="pt-24">
       <Audience/>
     </section>
 

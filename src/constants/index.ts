@@ -85,6 +85,21 @@ export const paymentCardItem = [
   }
 ]
 
+export const carouselItems = [
+  {
+    imageSrc : '/assets/images/carousel-1.jpeg',
+    alt:'mulheres sorrindo'
+},
+  {
+    imageSrc : '/assets/images/carousel-2.jpeg',
+    alt:'imagem do publico'
+},
+  {
+    imageSrc : '/assets/images/carousel-3.jpeg',
+    alt:'sheila damião palestrando'
+},
+]
+
 export const config = {
  ingressLink:"https://www.bilheteriadigital.com/jornada-governar-4-0-treinamento-imersao-em-inteligencia-emocional-26-de-maio"
 }
