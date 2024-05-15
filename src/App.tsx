@@ -11,7 +11,7 @@ import Footer from "./sections/Footer"
 import WpToast from "./components/shared/WpToast"
 import Audience from "./sections/Audience"
 import Sponsors from "./sections/Sponsors"
-import WhatsIs from "./sections/WhatsIs"
+
 
 
 
@@ -30,9 +30,6 @@ function App() {
       <Hero/>
     </section>
 
-    <section className="py-20 hero-bg-bottom">
-      <WhatsIs/>
-    </section>
 
     <section className="">
       <Target/>
