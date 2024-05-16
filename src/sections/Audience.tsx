@@ -6,7 +6,7 @@ const Audience = () => {
   return (
     <section className="flex justify-center items-center flex-col ">
       <div className="flex flex-col w-full max-w-4xl px-4   ">
-        <h2 className="mb-20 mt-20 font-medium font-poppins text-center flex flex-col md:text-4xl  text-3xl"> 
+        <h2 className="mb-20 mt-20 font-bold font-poppins text-center flex flex-col md:text-4xl  text-3xl"> 
         <span>quem 
           <span className="uppercase text-[#6c3e04]"> precisa</span>
         </span> 
@@ -24,7 +24,7 @@ const Audience = () => {
       </div>
 
       <div className="flex flex-col w-full max-w-4xl p-4 ">
-        <h2 className="mb-20 mt-20 font-medium font-poppins text-center flex flex-col md:text-4xl  text-3xl"> 
+        <h2 className="mb-20 mt-20 font-bold font-poppins text-center flex flex-col md:text-4xl  text-3xl"> 
         <span>quem 
           <span className="uppercase text-[#6c3e04]"> não precisa</span>
         </span> 

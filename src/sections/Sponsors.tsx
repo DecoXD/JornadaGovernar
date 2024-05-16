@@ -16,8 +16,8 @@ import SponsorsCard from '@/components/shared/SponsorsCard';
 
 const Sponsors = () => {
   return (
-    <section className='flex flex-col md:gap-10 gap-6'>
-      <h2 className='text-center md:text-5xl text-3xl md:py-20 py-14 font-bold uppercase font-poppins'>Patrocinadores</h2>
+    <section className='flex flex-col md:gap-10 gap-4'>
+      <h2 className='text-center md:text-5xl text-3xl md:py-8 py-14 font-bold uppercase font-poppins'>Patrocinadores</h2>
      <Swiper
       // install Swiper modules
       modules={[Autoplay]}
@@ -53,7 +53,7 @@ const Sponsors = () => {
       spaceBetween={50}
       slidesPerView={3}
       pagination={{ clickable: false }}
-      speed={1800}
+      speed={2000}
       autoplay={{
         delay:100,
         reverseDirection:false

@@ -18,8 +18,8 @@ const Target = ({}) => {
         </div>
 
         <div className="min-w-26">
-          <p className="text-[#6c3e04] font-medium text-3xl font-poppins">serve para você?</p>
-          <h2 className="text-black font-medium text-4xl font-poppins">para quem é?</h2>
+          <p className="text-[#6c3e04] font-bold text-3xl font-poppins">serve para você?</p>
+          <h2 className="text-black font-bold  text-4xl font-poppins">para quem é?</h2>
         </div>
         
         <div className="flex">

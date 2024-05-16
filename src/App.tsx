@@ -43,13 +43,15 @@ function App() {
       <Audience/>
     </section>
 
+    <section className="bg-[#FFFEFA] pt-24 ">
+      <Disclosure/>
+    </section>
+
     <section className="pt-24">
       <Benefices/>
     </section>
     
-    <section className="bg-[#FFFEFA] pt-24 ">
-      <Disclosure/>
-    </section>
+   
 
     <section className="bg-[#FFFEFA] pt-24 ">
       <About/>
@@ -63,6 +65,8 @@ function App() {
       <Payment/>
     </section>
 
+ 
+    
     <Footer/>
    </div>
   )
