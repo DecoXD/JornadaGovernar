@@ -44,15 +44,7 @@ function App() {
       <Audience/>
     </section>
 
-<<<<<<< HEAD
-    <section className="pt-20">
-      <Benefices/>
-    </section>
-    
-    <section className="bg-[#FFFEFA] pt-20 ">
-      <Disclosure/>
-    </section>
-=======
+
     <section className="bg-[#FFFEFA] pt-24 ">
       <Disclosure/>
     </section>
@@ -62,7 +54,7 @@ function App() {
     </section>
     
    
->>>>>>> fed4b64eb8d6beb1b63d5a72359956ebf9437b77
+
 
     <section className="bg-[#FFFEFA] pt-20 ">
       <About/>
