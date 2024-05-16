@@ -86,9 +86,9 @@
     
     background-position:top;
   }
-  .hero-bg-bottom{
+  .hero-bg-starter{
     
-    background: url('/assets/images/bg-hero.png');
+    background: url('/assets/images/starter-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     

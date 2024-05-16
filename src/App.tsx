@@ -30,6 +30,7 @@ function App() {
       <Hero/>
     </section>
 
+    
 
     <section className="">
       <Target/>
@@ -39,27 +40,27 @@ function App() {
       <Content/>
     </section>
     
-    <section className="pt-24">
+    <section className="pt-20">
       <Audience/>
     </section>
 
-    <section className="pt-24">
+    <section className="pt-20">
       <Benefices/>
     </section>
     
-    <section className="bg-[#FFFEFA] pt-24 ">
+    <section className="bg-[#FFFEFA] pt-20 ">
       <Disclosure/>
     </section>
 
-    <section className="bg-[#FFFEFA] pt-24 ">
+    <section className="bg-[#FFFEFA] pt-20 ">
       <About/>
     </section>
 
-    <section className="pt-20 md:pt-24">
+    <section className="pt-20 md:pt-20">
       <Sponsors/>
     </section>
     
-    <section className="bg-[#FFFEFA] md:pt-32 pb-24 pt-24  ">
+    <section className="bg-[#FFFEFA] md:pt-32 pb-20 pt-20  ">
       <Payment/>
     </section>
 
