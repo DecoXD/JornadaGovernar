@@ -9,7 +9,7 @@ const Benefices = () => {
 
         <div className="  flex flex-col gap-10 p-2 md:p-10">
 
-          <h3 className='flex font-poppins flex-col md:text-4xl text-3xl font-semibold uppercase text-black '>
+          <h3 className='flex font-poppins flex-col md:text-4xl text-3xl font-bold uppercase text-black '>
             <span>participe dessa </span>
             <span>jornada e gire a chave</span>
             <span className='text-[#6c3e04]'>da sua vida</span>

@@ -104,6 +104,7 @@ export const config = {
  ingressLink:"https://www.bilheteriadigital.com/jornada-governar-4-0-treinamento-imersao-em-inteligencia-emocional-26-de-maio"
 }
 
+
 export const sponsorsItems = [
   {
     brand:'muvi',

@@ -8,7 +8,7 @@ const Disclosure = () => {
   return (
     <section className="min-h-[60vh] flex items-center justify-center bg-[#6c3e04] p-2">
       <article className="flex flex-col gap-6">
-        <h3 className="sm:text-4xl text-3xl  font-medium text-center text-slate-100 flex flex-col font-poppins">
+        <h3 className="sm:text-4xl text-3xl  font-bold text-center text-slate-100 flex flex-col font-poppins">
           <span>Você ja se sentiu um</span>
            <span>gigante vivendo espremido</span> 
            <span>na casa de um anão?</span></h3>
