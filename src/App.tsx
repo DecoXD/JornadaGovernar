@@ -10,6 +10,8 @@ import Payment from "./sections/Payment"
 import Footer from "./sections/Footer"
 import WpToast from "./components/shared/WpToast"
 import Audience from "./sections/Audience"
+import Sponsors from "./sections/Sponsors"
+
 
 
 
@@ -23,15 +25,17 @@ function App() {
     <Analytics/>
     
     <WpToast/>
+
     <section>
       <Hero/>
     </section>
 
-    <section>
+
+    <section className="">
       <Target/>
     </section>
 
-    <section>
+    <section className="">
       <Content/>
     </section>
     
@@ -50,8 +54,12 @@ function App() {
     <section className="bg-[#FFFEFA] pt-24 ">
       <About/>
     </section>
+
+    <section className="pt-20 md:pt-24">
+      <Sponsors/>
+    </section>
     
-    <section className="bg-[#FFFEFA] py-20 ">
+    <section className="bg-[#FFFEFA] md:pt-32 pb-24 pt-24  ">
       <Payment/>
     </section>
 

@@ -57,6 +57,7 @@ export const whoIsItFor = [
     content:'A jornada é para aqueles que entendem que precisam estar aberto as mudanças, para aqueles que querem encontrar a identidade, restaurar propósitos.'
   }
 ]
+
 export const whoIsntItFor = [
   {
     title:'pessoas acomodadas',
@@ -71,7 +72,6 @@ export const whoIsntItFor = [
     content: 'Para os que preferem permanecer na zona de conforto ao invés de enfrentar e superar seus limites para crescer pessoal e profissionalmente.'
   }
 ]
-
 
 export const paymentCardItem = [
   {
@@ -123,6 +123,40 @@ export const sponsorsItems = [
   },
 ]
 
+export const sponsorsItems = [
+  {
+    brand:'muvi',
+    imageSrc:'/assets/images/muvi.png'
+  },
+  {
+    brand:'mustache',
+    imageSrc:'/assets/images/mustache.png'
+  },
+  {
+    brand:'gustavo carmo',
+    imageSrc:'/assets/images/gustavo-carmo.png'
+  },
+  {
+    brand:'igreja peniel',
+    imageSrc:'/assets/images/peniel.png'
+  },
+  {
+    brand:'six solar',
+    imageSrc:'/assets/images/sixsolar.png'
+  },
+  {
+    brand:'via frança',
+    imageSrc:'/assets/images/via-franca.png'
+  },
+  {
+    brand:'cleto da banana',
+    imageSrc:'/assets/images/cleto.png'
+  },
+  {
+    brand:'apvis',
+    imageSrc:'/assets/images/apvs.png'
+  },
+]
 // title:string;
 // content:string;
 // initialValue:string;
