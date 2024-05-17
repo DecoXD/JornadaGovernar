@@ -12,13 +12,13 @@ const Hero = () => {
           
         <div className="  flex flex-col gap-8 flex-1  w-full">
           <h1 className='lg:text-[42px] font-poppins sm:text-4xl text-3xl  max-w-[600px] w-full font-bold uppercase text-black'>
-            Alcance uma vida <br /> <span className="text-[#6c3e04]">Extraordinária</span>
+            <span className=''>Alcance uma vida</span> <br /> <span className="text-[#6c3e04] animate-fade-in-right delay-1000">Extraordinária</span>
             <br /> 
-            com <span className="text-[#6c3e04] whitespace-nowrap">sheila damião</span> <br />
+            com <span className="text-[#6c3e04] whitespace-nowrap animate-fade-in-right delay-1000">sheila damião</span> <br />
             especialista em <br />
-            <span className="text-[#6c3e04]  sm:whitespace-nowrap">inteligência emocional</span>
+            <span className="text-[#6c3e04]  sm:whitespace-nowrap animate-fade-in-right delay-1000">inteligência emocional</span>
           </h1>
-          <p className='text-black md:text-md sm:text-sm text-xs font-montserrat  '>Descubra como superar os bloqueios ocultos que limitam seu potencial. Através do autoconhecimento e da autorresponsabilidade, aprenda a maximizar sua performance e produtividade. Transforme sua vida e negócios,  e alcance uma vida plena e abundante.</p>
+          <p className='text-black md:text-md sm:text-sm text-xs font-montserrat  animate-fade-in-right delay-1000'>Descubra como superar os bloqueios ocultos que limitam seu potencial. Através do autoconhecimento e da autorresponsabilidade, aprenda a maximizar sua performance e produtividade. Transforme sua vida e negócios,  e alcance uma vida plena e abundante.</p>
           <a target="_blank" href={config.ingressLink} 
           className=' text-center uppercase max-w-80 text-md font-bold bg-[#6c3e04] rounded-none text-slate-100 py-4 px-12 hover:bg-[#6c3e04]/95 font-montserrat sm:text-md text-xs'>quero fazer parte</a>
           <p className='flex gap-2 flex-col text-xs'>
