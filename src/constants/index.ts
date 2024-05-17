@@ -1,7 +1,7 @@
 export const targetLayerItems =[
   {
     iconSrc:'/assets/icons/arrow.svg',
-    content:'Se sente estagnado e quer aumentar seus resultados, mas está perdido de como fazer isso?',
+    content:'Os resultados do seu time não estão bons? Aprenda como performar melhor e alcançar melhores resultados !',
     alt:'arrow'
   },
   {
@@ -16,32 +16,32 @@ export const targetLayerItems =[
   },
 ]
 
-export const testimonalItems = [
-  {
-    title:"Érica",
-    imageSrc:'/assets/images/erica.jpeg',
-    content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-    videoSrc:'/assets/videos/video.mp4'
-  },
-  {
-    title:"Rodrigo",
-    imageSrc:'/assets/images/homem.jpeg',
-    content:"  Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-    videoSrc:'/assets/videos/video.mp4'
-  },
-  {
-    title:"Jane",
-    imageSrc:'/assets/images/erica.jpeg',
-    content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-    videoSrc:'/assets/videos/video.mp4'
-  },
-  {
-    title:"Jane",
-    imageSrc:'/assets/images/homem.jpeg',
-    content:"Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-    videoSrc:'/assets/videos/video.mp4'
-  },
-]
+// export const testimonalItems = [
+//   {
+//     title:"Érica",
+//     imageSrc:'/assets/images/erica.jpeg',
+//     content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
+//     videoSrc:'/assets/videos/video.mp4'
+//   },
+//   {
+//     title:"Rodrigo",
+//     imageSrc:'/assets/images/homem.jpeg',
+//     content:"  Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
+//     videoSrc:'/assets/videos/video.mp4'
+//   },
+//   {
+//     title:"Jane",
+//     imageSrc:'/assets/images/erica.jpeg',
+//     content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
+//     videoSrc:'/assets/videos/video.mp4'
+//   },
+//   {
+//     title:"Jane",
+//     imageSrc:'/assets/images/homem.jpeg',
+//     content:"Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
+//     videoSrc:'/assets/videos/video.mp4'
+//   },
+// ]
 
 export const whoIsItFor = [
   {
@@ -54,7 +54,7 @@ export const whoIsItFor = [
   },
   {
     title:'Quem deseja uma mudança de vida',
-    content:'A jornada é para aqueles que entendem que precisam estar aberto as mudanças, para aqueles que querem encontrar a identidade, restaurar propósitos.'
+    content:'Jornada governar não é um treinamento de autoajuda não é motivacional ! É transformador ! É o destravar do potencial dentro de você !'
   }
 ]
 

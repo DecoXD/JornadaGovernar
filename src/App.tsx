@@ -11,6 +11,7 @@ import Footer from "./sections/Footer"
 import WpToast from "./components/shared/WpToast"
 import Audience from "./sections/Audience"
 import Sponsors from "./sections/Sponsors"
+import FadeInContainer from "./components/shared/FadeInContainer"
 
 
 
@@ -20,15 +21,16 @@ function App() {
  
 
   return (
-   <div className="">
+   <div className="overflow-hidden">
 
     <Analytics/>
     
     <WpToast/>
 
-    <section>
+    <FadeInContainer   animate = {'animate-fade-in'}>
       <Hero/>
-    </section>
+    </FadeInContainer>
+    
 
     
 
@@ -36,29 +38,28 @@ function App() {
       <Target/>
     </section>
 
-    <section className="">
+    <FadeInContainer   animate = {'animate-fade-in-right'}>
       <Content/>
-    </section>
+    </FadeInContainer>
+ 
     
-    <section className="pt-20">
+    <FadeInContainer className = {'p-20'} animate = {'animate-fade-in'}>
       <Audience/>
-    </section>
-
-
-    <section className="bg-[#FFFEFA] pt-24 ">
-      <Disclosure/>
-    </section>
-
-    <section className="pt-24">
-      <Benefices/>
-    </section>
+    </FadeInContainer>
     
+
+    <FadeInContainer className={"bg-[#FFFEFA] pt-24 "}  animate = {'animate-fade-in-right'}>
+      <Disclosure/>
+    </FadeInContainer>
+      
+    <FadeInContainer className={"pt-24 "}  animate = {'animate-fade-in'}>
+      <Benefices/>
+    </FadeInContainer>
    
-
-
-    <section className="bg-[#FFFEFA] pt-20 ">
+    <FadeInContainer className="bg-[#FFFEFA] pt-20 "  animate = {'animate-fade-in-right'}>
       <About/>
-    </section>
+    </FadeInContainer>
+  
 
     <section className="pt-20 md:pt-20">
       <Sponsors/>
@@ -69,7 +70,6 @@ function App() {
     </section>
 
  
-    
     <Footer/>
    </div>
   )

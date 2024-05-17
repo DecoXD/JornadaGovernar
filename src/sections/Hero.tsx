@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className='flex flex-col justify-center hero-bg md:pt-4 mb-20 pt-10 lg:gap-0 gap-12 bg-[#FFFEFA] min-h-[80vh]  items-start relative '>
     
-      <img src="/assets/images/logo.png" className='z-10 mt-8 ml-10 sm:ml-4 sm:mt-4' alt="logomarca" width={150}/>{/* ajustar para 100 em mobile */}
+      <img src="/assets/images/logo.png" className='z-10 mt-8 ml-10 sm:ml-4 sm:mt-4 animate-fade-in' alt="logomarca" width={150}/>{/* ajustar para 100 em mobile */}
     
       <div className="bg-[#6c3e04] min-h-20 min-w-14 blur-3xl absolute top-0 left-0"></div>
 
@@ -18,7 +18,7 @@ const Hero = () => {
             especialista em <br />
             <span className="text-[#6c3e04]  sm:whitespace-nowrap">inteligência emocional</span>
           </h1>
-          <p className='text-black md:text-md sm:text-sm text-xs font-montserrat'>Descubra como superar os bloqueios ocultos que limitam seu potencial. Através do autoconhecimento e da autorresponsabilidade, aprenda a maximizar sua performance e produtividade. Transforme sua vida e negócios,  e alcance uma vida plena e abundante.</p>
+          <p className='text-black md:text-md sm:text-sm text-xs font-montserrat  '>Descubra como superar os bloqueios ocultos que limitam seu potencial. Através do autoconhecimento e da autorresponsabilidade, aprenda a maximizar sua performance e produtividade. Transforme sua vida e negócios,  e alcance uma vida plena e abundante.</p>
           <a target="_blank" href={config.ingressLink} 
           className=' text-center uppercase max-w-80 text-md font-bold bg-[#6c3e04] rounded-none text-slate-100 py-4 px-12 hover:bg-[#6c3e04]/95 font-montserrat sm:text-md text-xs'>quero fazer parte</a>
           <p className='flex gap-2 flex-col text-xs'>

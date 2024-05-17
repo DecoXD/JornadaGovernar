@@ -11,8 +11,13 @@ const Content = () => {
           <h3 className="md:text-4xl text-3xl uppercase font-bold max-w-xl font-poppins  ">
             serão 12 horas de imersão para você <br /> <span className="text-[#6c3e04]">desbloquear</span> todo o seu potencial 
           </h3>
-          <p className="max-w-96 font-montserrat">somos nós os responsáveis pela vida que levamos e onde nos colocamos e que apenas nós mesmos podemos mudar isso,</p>
-          <p className="mt-2 max-w-96 font-montserrat">entendendo quem somos e o poder que está em nossas mãos para mudar quando encontramos o propósito de vida.</p>
+         
+         <p className="max-w-96 font-montserrat">somos nós os responsáveis pela vida que levamos e onde nos colocamos e que apenas nós mesmos podemos mudar isso,</p>
+          <p className="mt-2 max-w-96 font-montserrat flex flex-col gap-8">entendendo quem somos e o poder que está em nossas mãos para mudar quando encontramos o propósito de vida.
+          <span className="text-xs font-medium text-black/60">- Sheila Damião</span>
+          </p>
+       
+          
         </div>
 
         <div className="flex-1 flex justify-center md:justify-end">
