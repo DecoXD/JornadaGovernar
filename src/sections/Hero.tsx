@@ -8,7 +8,7 @@ const Hero = () => {
     
       <div className="bg-[#6c3e04] min-h-20 min-w-14 blur-3xl absolute top-0 left-0"></div>
 
-      <section className='flex flex-col md:flex-row flex-1 items-end z-10 md:px-0 md:pl-10 px-10'>
+      <section className='flex flex-col md:flex-row flex-1 items-end z-10 px-4 md:pl-10 md:px-10'>
           
         <div className="  flex flex-col gap-8 flex-1  w-full">
           <h1 className='lg:text-[42px] font-poppins sm:text-4xl text-3xl  max-w-[600px] w-full font-bold uppercase text-black'>

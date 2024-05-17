@@ -43,7 +43,7 @@ function App() {
     </FadeInContainer>
  
     
-    <FadeInContainer className = {'p-20'} animate = {'animate-fade-in'}>
+    <FadeInContainer className = {'pt-20'} animate = {'animate-fade-in'}>
       <Audience/>
     </FadeInContainer>
     
@@ -61,7 +61,7 @@ function App() {
     </FadeInContainer>
   
 
-    <section className="pt-20 md:pt-20">
+    <section className="pt-20 ">
       <Sponsors/>
     </section>
     
