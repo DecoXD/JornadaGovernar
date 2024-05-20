@@ -16,32 +16,6 @@ export const targetLayerItems =[
   },
 ]
 
-// export const testimonalItems = [
-//   {
-//     title:"Érica",
-//     imageSrc:'/assets/images/erica.jpeg',
-//     content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-//     videoSrc:'/assets/videos/video.mp4'
-//   },
-//   {
-//     title:"Rodrigo",
-//     imageSrc:'/assets/images/homem.jpeg',
-//     content:"  Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-//     videoSrc:'/assets/videos/video.mp4'
-//   },
-//   {
-//     title:"Jane",
-//     imageSrc:'/assets/images/erica.jpeg',
-//     content:" Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-//     videoSrc:'/assets/videos/video.mp4'
-//   },
-//   {
-//     title:"Jane",
-//     imageSrc:'/assets/images/homem.jpeg',
-//     content:"Oi Sheila, Sou Jane, trabalho na Pestalozzi, quero dizer que foi maravilhosa a experiência. Acredito que será sim, um divisor de águas.",
-//     videoSrc:'/assets/videos/video.mp4'
-//   },
-// ]
 
 export const whoIsItFor = [
   {
@@ -137,6 +111,34 @@ export const sponsorsItems = [
   {
     brand:'apvis',
     imageSrc:'/assets/images/apvs.png'
+  },
+  {
+    brand:'adventista',
+    imageSrc:'/assets/images/adventista.png'
+  },
+  {
+    brand:'ludmila',
+    imageSrc:'/assets/images/ludmila.png'
+  },
+  {
+    brand:'pellecapelli',
+    imageSrc:'/assets/images/pellecapelli.jpg'
+  },
+  {
+    brand:'crisma',
+    imageSrc:'/assets/images/crisma.jpg'
+  },
+  {
+    brand:'brooklyn',
+    imageSrc:'/assets/images/brooklyn.jpg'
+  },
+  {
+    brand:'soudiva',
+    imageSrc:'/assets/images/soudiva.jpg'
+  },
+  {
+    brand:'sida',
+    imageSrc:'/assets/images/sida.jpg'
   },
 ]
 // title:string;
