@@ -86,6 +86,19 @@
     
     background-position:top;
   }
+
+  .gradient-bg-bronze{
+    background: linear-gradient(to bottom,#6c3d044b,#f2eee9);
+  }
+  
+  .gradient-bg-silver{
+    background: linear-gradient(to bottom,#EDEDED,#f2eee9);
+  }
+
+  .gradient-bg-gold{
+    background: linear-gradient(to bottom,#F7D56F,#f2eee9);
+  }
+
   .hero-bg-starter{
     
     background: url('/assets/images/starter-bg.png');

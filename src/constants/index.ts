@@ -49,14 +49,86 @@ export const whoIsntItFor = [
 
 export const paymentCardItem = [
   {
-    title:"Faça sua inscrição no Evento",
+    title:"Pacote Bronze",
+    imgUrl:'/assets/icons/bronze.svg',
+    bgGradient:'gradient-bg-bronze',
     content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
-    initialValue: "594.00",
-    promoValue:'29.70',
-    parcels: 10,
+    initialValue: "R$2988,00",
+    promoValue:'99,90',
+    parcels: 12,
+    benefices:[
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de coisas'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de jornada governar'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de sheila'
+      },
+    ]
+    ,
+    total:99.90 * 12,
     date:'26/05/2024'
 
-  }
+  },
+  {
+    title:"Pacote Silver",
+    imgUrl:'/assets/icons/silver.svg',
+    bgGradient:'gradient-bg-silver',
+    content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
+    initialValue: "R$2988,00",
+    promoValue:'99,90',
+    parcels: 12,
+    benefices:[
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de coisas'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de jornada governar'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de sheila'
+      },
+    ]
+    ,
+    total:99.90 * 12,
+    date:'26/05/2024'
+
+  },
+  {
+    title:"Pacote Ouro",
+    imgUrl:'/assets/icons/gold.svg',
+    content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
+    initialValue: "R$2988,00",
+    promoValue:'99,90',
+    parcels: 12,
+    bgGradient:"gradient-bg-gold",
+    benefices:[
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de coisas'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de jornada governar'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'ferramenta de sheila'
+      },
+    ]
+    ,
+    total:99.90 * 12,
+    date:'26/05/2024'
+
+  },
 ]
 
 export const carouselItems = [
