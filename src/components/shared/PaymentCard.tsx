@@ -10,7 +10,7 @@ type PaymentCardProps = {
     paymentLink:string,
 
 }
-import {config} from '../../constants/index.ts'
+
 
 const PaymentCard = ({title,initialValue,promoValue,parcels,total,benefices,imgUrl,bgGradient,paymentLink}:PaymentCardProps) => {
   return (
