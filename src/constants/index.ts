@@ -49,86 +49,112 @@ export const whoIsntItFor = [
 
 export const paymentCardItem = [
   {
-    title:"Pacote Bronze",
-    imgUrl:'/assets/icons/bronze.svg',
+    title:"Mentoria Online",
+    imgUrl:'/assets/images/logo.png',
+    paymentLink:'https://mpago.li/1zTj1px',
     bgGradient:'gradient-bg-bronze',
-    content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
     initialValue: "R$2988,00",
-    promoValue:'99,90',
+    promoValue:'94,00',
+    total:997,
     parcels: 12,
+    
     benefices:[
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de coisas'
+        benefice:'Mentoria em grupo'
       },
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de jornada governar'
+        benefice:'Análise comportamental individual'
       },
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de sheila'
+        benefice:'8 encontros - Google Meets'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'Analise de padrões comportamentais do time'
       },
     ]
     ,
-    total:99.90 * 12,
-    date:'26/05/2024'
-
   },
+
   {
-    title:"Pacote Silver",
-    imgUrl:'/assets/icons/silver.svg',
-    bgGradient:'gradient-bg-silver',
-    content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
-    initialValue: "R$2988,00",
-    promoValue:'99,90',
+    title:"Mentoria Individual",
+    imgUrl:'/assets/images/logo.png',
+    paymentLink:'https://mpago.li/1bFMABe',
+    initialValue: "R$4288,00",
+    promoValue:'285,18',
+    total:3058,
     parcels: 12,
+    bgGradient:"gradient-bg-bronze",
     benefices:[
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de coisas'
+        benefice:'10 encontros presenciais'
       },
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de jornada governar'
+        benefice:'Mentoria especifica individual'
       },
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de sheila'
+        benefice:'Analise de padrão comportamental'
+      },
+     
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'Blindagem emocional'
       },
     ]
-    ,
-    total:99.90 * 12,
-    date:'26/05/2024'
-
   },
+
   {
-    title:"Pacote Ouro",
-    imgUrl:'/assets/icons/gold.svg',
-    content:'uma imersão de 12 horas que você vai viver na prática o destrave do medo que te impede de viver uma vida extraordinária.',
-    initialValue: "R$2988,00",
-    promoValue:'99,90',
+    title:"Mentoria Empresarial",
+    imgUrl:'/assets/images/logo.png',
+    paymentLink:'',
+    bgGradient:'gradient-bg-bronze',
+    initialValue: "R$5988,90",
+    promoValue:'382,29',
+    total:4096,
     parcels: 12,
-    bgGradient:"gradient-bg-gold",
     benefices:[
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de coisas'
+        benefice:'10 encontros presenciais em grupo'
       },
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de jornada governar'
+        benefice:'Analise de clima organizacional'
       },
       {
         iconSrc:'/assets/icons/checkmark.svg',
-        benefice:'ferramenta de sheila'
+        benefice:'DNA empresarial'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'Analise de padrões comportamentais do time'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'Analise de perfil comportamental do time'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'Blindagem emocional'
+      },
+      {
+        iconSrc:'/assets/icons/checkmark.svg',
+        benefice:'Mentoria em desenvolvimento humano'
       },
     ]
     ,
-    total:99.90 * 12,
-    date:'26/05/2024'
+    
+    
 
   },
+
+ 
 ]
 
 export const carouselItems = [
