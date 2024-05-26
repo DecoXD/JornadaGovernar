@@ -1,3 +1,7 @@
+type Benefice = {
+  iconSrc: string;
+  benefice: string;
+};
 type PaymentCardProps = {
     title:string;
     initialValue:string;
@@ -5,7 +9,7 @@ type PaymentCardProps = {
     parcels:number;
     bgGradient:string;
     total:number;
-    benefices:any;
+    benefices:Benefice[];
     imgUrl:string;
     paymentLink:string,
 
@@ -16,7 +20,7 @@ const PaymentCard = ({title,initialValue,promoValue,parcels,total,benefices,imgU
   return (
     <article 
     className={`
-      max-w-md xlg:min-h-[900px] min-h-[820px]  w-full rounded-lg flex text-center flex-col px-4 py-6 gap-8 ${bgGradient}  shadow-lg shadow-black/15
+      max-w-md xlg:min-h-[900px]   w-full rounded-lg flex text-center flex-col px-4 py-6 gap-8 ${bgGradient}  shadow-lg shadow-black/15
     `}>
       <div className=" flex flex-col gap-6">
         
@@ -75,8 +79,8 @@ const PaymentCard = ({title,initialValue,promoValue,parcels,total,benefices,imgU
       </div>
 
       <div className=" flex justify-center">
-        <ul className="flex lg:pl-10 flex-col  justify-center gap-4">
-          {benefices.map((item:any) =>{
+        <ul className="flex lg:pl-10 flex-col  justify-center xlg:gap-4 gap-2">
+          {benefices.map((item:Benefice) =>{
           return (
             <li key={item.benefice} className='flex gap-4 items-center font-montserrat'>
               <img src={item.iconSrc} alt="checkmark" width={15} />
