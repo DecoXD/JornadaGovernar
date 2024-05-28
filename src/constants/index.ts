@@ -112,7 +112,7 @@ export const paymentCardItem = [
   {
     title:"Mentoria Empresarial",
     imgUrl:'/assets/images/logo.png',
-    paymentLink:'',
+    paymentLink:'https://mpago.li/1VCx3jg',
     bgGradient:'gradient-bg-bronze',
     initialValue: "R$5988,90",
     promoValue:'382,29',
