@@ -54,9 +54,9 @@ export const paymentCardItem = [
     paymentLink:'https://mpago.li/1zTj1px',
     bgGradient:'gradient-bg-bronze',
     initialValue: "R$2988,00",
-    promoValue:'94,00',
+    promoValue:(997 / 4),
     total:997,
-    parcels: 12,
+    parcels: 4,
     
     benefices:[
       {
@@ -84,9 +84,9 @@ export const paymentCardItem = [
     imgUrl:'/assets/images/logo.png',
     paymentLink:'https://mpago.li/1bFMABe',
     initialValue: "R$4288,00",
-    promoValue:'285,18',
+    promoValue:(3058 / 4),
     total:3058,
-    parcels: 12,
+    parcels: 4,
     bgGradient:"gradient-bg-bronze",
     benefices:[
       {
@@ -112,12 +112,12 @@ export const paymentCardItem = [
   {
     title:"Mentoria Empresarial",
     imgUrl:'/assets/images/logo.png',
-    paymentLink:'https://mpago.li/1VCx3jg',
+    paymentLink:'',
     bgGradient:'gradient-bg-bronze',
     initialValue: "R$5988,90",
-    promoValue:'382,29',
+    promoValue:(4096 / 4),
     total:4096,
-    parcels: 12,
+    parcels: 4,
     benefices:[
       {
         iconSrc:'/assets/icons/checkmark.svg',
@@ -173,7 +173,7 @@ export const carouselItems = [
 ]
 
 export const config = {
- ingressLink:"https://www.bilheteriadigital.com/jornada-governar-4-0-treinamento-imersao-em-inteligencia-emocional-26-de-maio"
+ ingressLink:"#mentoria"
 }
 
 

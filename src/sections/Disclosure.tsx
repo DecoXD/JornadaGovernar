@@ -13,8 +13,8 @@ const Disclosure = () => {
            <span>gigante vivendo espremido</span> 
            <span>na casa de um anão?</span></h3>
         <p className="text-center font-medium font-montserrat text-slate-100">você está vivendo uma vida "menor" que poderia?</p>
-        <a target="_blank" href={config.ingressLink} className="py-4 px-10 bg-[#FFFEFA] text-black sm:text-md text-xs font-bold hover:opacity-90 uppercase text-center font-montserrat">
-          participe desta jornada
+        <a  href={config.ingressLink} className="py-4 px-10 bg-[#FFFEFA] text-black sm:text-md text-xs font-bold hover:opacity-90 uppercase text-center font-montserrat">
+          participe da mentoria
         </a>
         <p className="text-center font-medium text-sm font-montserrat text-slate-100">sua mudança para melhor começa em:</p>
         <div className="flex gap-6 justify-center font-montserrat  ">

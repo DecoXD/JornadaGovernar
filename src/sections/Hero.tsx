@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="text-[#6c3e04]  sm:whitespace-nowrap animate-fade-in-right delay-1000">inteligência emocional</span>
           </h1>
           <p className='text-black md:text-md sm:text-sm text-xs font-montserrat  animate-fade-in-right delay-1000'>Descubra como superar os bloqueios ocultos que limitam seu potencial. Através do autoconhecimento e da autorresponsabilidade, aprenda a maximizar sua performance e produtividade. Transforme sua vida e negócios,  e alcance uma vida plena e abundante.</p>
-          <a target="_blank" href={config.ingressLink} 
+          <a  href={config.ingressLink} 
           className=' text-center uppercase max-w-80 text-md font-bold bg-[#6c3e04] rounded-none text-slate-100 py-4 px-12 hover:bg-[#6c3e04]/95 font-montserrat sm:text-md text-xs'>quero fazer parte</a>
           <p className='flex gap-2 flex-col text-xs'>
            

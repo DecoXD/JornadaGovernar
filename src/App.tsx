@@ -65,7 +65,7 @@ function App() {
       <Sponsors/>
     </section>
     
-    <section className="bg-[#FFFEFA] md:pt-32 pb-20 pt-20  ">
+    <section id="mentoria" className="bg-[#FFFEFA] md:pt-32 pb-20 pt-20  ">
       <Payment/>
     </section>
 
