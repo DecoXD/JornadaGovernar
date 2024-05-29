@@ -1,3 +1,7 @@
+export const config = {
+  ingressLink:"#mentoria"
+ }
+
 export const targetLayerItems =[
   {
     iconSrc:'/assets/icons/arrow.svg',
@@ -172,9 +176,76 @@ export const carouselItems = [
 },
 ]
 
-export const config = {
- ingressLink:"#mentoria"
-}
+export const WhatHappensRow1Items = [
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-1.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-2.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-3.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-4.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-5.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-6.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-7.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-8.jpeg'
+  },
+]
+export const WhatHappensRow2Items = [
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-8.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-2.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-3.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-5.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-6.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-4.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-1.jpeg'
+  },
+  {
+    alt:'foto-jornada',
+    imageSrc:'/assets/images/foto-7.jpeg'
+  },
+]
+
+
 
 
 export const sponsorsItems = [
@@ -239,6 +310,8 @@ export const sponsorsItems = [
     imageSrc:'/assets/images/sida.jpg'
   },
 ]
+
+
 // title:string;
 // content:string;
 // initialValue:string;

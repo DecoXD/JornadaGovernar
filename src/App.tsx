@@ -12,6 +12,7 @@ import WpToast from "./components/shared/WpToast"
 import Audience from "./sections/Audience"
 import Sponsors from "./sections/Sponsors"
 import FadeInContainer from "./components/shared/FadeInContainer"
+import WhatHappens from "./sections/WhatHappens"
 
 
 
@@ -61,15 +62,18 @@ function App() {
     </FadeInContainer>
   
 
-    <section className="pt-20 ">
-      <Sponsors/>
-    </section>
     
     <section id="mentoria" className="bg-[#FFFEFA] md:pt-32 pb-20 pt-20  ">
       <Payment/>
     </section>
+    
+    <section className="pt-20 ">
+      <WhatHappens/>
+    </section>
 
- 
+    <section className="py-32 ">
+      <Sponsors/>
+    </section>
     <Footer/>
    </div>
   )
