@@ -31,9 +31,6 @@ function App() {
     <FadeInContainer   animate = {'animate-fade-in'}>
       <Hero/>
     </FadeInContainer>
-    
-
-    
 
     <section className="">
       <Target/>
@@ -67,9 +64,9 @@ function App() {
       <Payment/>
     </section>
     
-    <section className="pt-20 ">
+    {/* <section className="pt-20 ">
       <WhatHappens/>
-    </section>
+    </section> */}
 
     <section className="py-32 ">
       <Sponsors/>
